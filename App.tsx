@@ -110,7 +110,7 @@ const App: React.FC = () => {
 
       {/* Footer */}
       <footer className="py-6 text-center text-gray-400 text-xs">
-        <p>© Mentor BNI - Baseado na metodologia oficial</p>
+        <p>Baseado na metodologia oficial BNI</p>
       </footer>
     </div>
   );

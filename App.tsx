@@ -33,15 +33,13 @@ const App: React.FC = () => {
       
       {/* Header */}
       <header className="bg-white border-b border-gray-200 py-4 px-6 sticky top-0 z-10 shadow-sm">
-        <div className="max-w-md mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-2">
-             <div className="w-8 h-8 bg-bni-navy rounded-md flex items-center justify-center text-white font-bold text-sm">
-                BNI
-             </div>
-             <h1 className="text-bni-navy font-bold text-lg leading-tight">
-               Mentor de Bolso
-             </h1>
-          </div>
+  <div className="max-w-md mx-auto flex items-center justify-between">
+    <div className="flex items-center gap-2">
+       {/* Logo removed as requested - Aquí es donde estaba el logo antes */}
+       <h1 className="text-bni-navy font-bold text-lg leading-tight">
+         Mentor de Bolso
+       </h1>
+    </div>
           {isStarted && (
              <button 
                onClick={() => setIsStarted(false)}
